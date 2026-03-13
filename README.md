@@ -1,34 +1,27 @@
 # RoClick
+C'est un jeu où l'on clic sur des pierres pour pouvoir sauver une pousse d'arbre.
 
-C'est un jeu qui se joue seul rien ne vaut
-Pour commencer
+# Pré-requis
+python
 
-Entrez ici les instructions pour bien débuter avec votre projet...
-Pré-requis
+# Installation
+Pour installer la version de pygame vous devez dans le fichier main.py aller: Outils>Outils>Installer un module avec pip 
+Par la suite python va vous demander de mettre le nom du module qui est: "pygame"
 
-Ce qu'il est requis pour commencer avec votre projet...
+# Démarrage
+Pour lancer le projet il faut renter dans le fichier main.py puis appuyer sur le triangle vert.
 
-Programme 1
-Programme 2
-etc...
-
-Installation
-
-Les étapes pour installer votre programme....
-Dites ce qu'il faut faire...
-Démarrage
-
-Dites comment faire pour lancer votre projet
-Fabriqué avec
+# Fabriqué avec
 
 Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
-Versions
+
+# Versions
 
 Listez les versions.
-Auteurs
+# Auteurs
 
 Listez les auteurs et les autrices du projet.
-License
+# License
 
 Ce projet est sous licence XXX - voir le fichier LICENSE pour plus d'informations.
 Ceci est un MODELE_README.
