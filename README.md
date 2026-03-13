@@ -28,7 +28,9 @@ gimp,
 
 # Auteurs
 
-Listez les auteurs et les autrices du projet.
+#Projet : Roclick
+#Auteurs : Ibrahim Bilal, Flavio Bonnano, Antoine Kauffman, Rafael Kamacho
+
 # License
 
 Ce projet est sous licence XXX - voir le fichier LICENSE pour plus d'informations.
