@@ -13,11 +13,11 @@ Pour lancer le projet il faut renter dans le fichier main.py puis appuyer sur le
 
 # Fabriqué avec
 
-blender 
-Edupython
-paint
-gimp
-(https://www.soundtrap.com/)(pour les musiques)
+blender, 
+Edupython,
+paint,
+gimp,
+(https://www.soundtrap.com/)(pour les musiques),
 
 
 # Versions
