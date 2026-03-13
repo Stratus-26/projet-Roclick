@@ -17,12 +17,15 @@ blender,
 Edupython,
 paint,
 gimp,
-(https://www.soundtrap.com/)(pour les musiques),
+(https://www.soundtrap.com/) (pour les musiques),
 
 
 # Versions
+(5.0)
+(...)
+(11.2602.401.0)
+(2.10.36)
 
-Listez les versions.
 # Auteurs
 
 Listez les auteurs et les autrices du projet.
