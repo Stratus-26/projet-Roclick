@@ -1,3 +1,5 @@
+#Projet : Roclick  
+#Auteurs : Ibrahim Bilal, Flavio Bonnano, Antoine Kauffman, Rafael Kamacho.
 import pygame
 pygame.init()
 pygame.mixer.init()
