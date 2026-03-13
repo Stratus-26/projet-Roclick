@@ -13,7 +13,12 @@ Pour lancer le projet il faut renter dans le fichier main.py puis appuyer sur le
 
 # Fabriqué avec
 
-Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
+blender 
+Edupython
+paint
+gimp
+(https://www.soundtrap.com/)(pour les musiques)
+
 
 # Versions
 
@@ -24,4 +29,4 @@ Listez les auteurs et les autrices du projet.
 # License
 
 Ce projet est sous licence XXX - voir le fichier LICENSE pour plus d'informations.
-Ceci est un MODELE_README.
+
