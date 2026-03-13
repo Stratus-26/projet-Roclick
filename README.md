@@ -1,4 +1,34 @@
 # RoClick
-c'est notre projet !
-pour la coupe de la NSI version 2026.
-vous pourriez trouvez toute les images dans le dossier image
+
+C'est un jeu qui se joue seul rien ne vaut
+Pour commencer
+
+Entrez ici les instructions pour bien débuter avec votre projet...
+Pré-requis
+
+Ce qu'il est requis pour commencer avec votre projet...
+
+Programme 1
+Programme 2
+etc...
+
+Installation
+
+Les étapes pour installer votre programme....
+Dites ce qu'il faut faire...
+Démarrage
+
+Dites comment faire pour lancer votre projet
+Fabriqué avec
+
+Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
+Versions
+
+Listez les versions.
+Auteurs
+
+Listez les auteurs et les autrices du projet.
+License
+
+Ce projet est sous licence XXX - voir le fichier LICENSE pour plus d'informations.
+Ceci est un MODELE_README.
