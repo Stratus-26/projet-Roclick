@@ -77,10 +77,7 @@ while running1:
 
 #ouverture du programme principale
 import pygame
-import time
-from pygame.locals import *
-from data import button
-from time import time, sleep
+from source import button
 
 pygame.init()
 
