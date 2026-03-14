@@ -380,15 +380,6 @@ un_bouton = button.Button(750, 250, un_img, 1)
 zero_img = pygame.image.load('data/0.png').convert_alpha()
 zero_bouton = button.Button(810, 250, zero_img, 1)
 
-curseur_img=pygame.image.load('data/curseur.png').convert_alpha()
-curseur_bouton=button.Button(5, 70, curseur_img, 1)
-
-curseur2_img=pygame.image.load('data/curseur2.png').convert_alpha()
-curseur2_bouton=button.Button(5, 150, curseur2_img, 1)
-
-#boutique_img = pygame.image.load('data/BOUTIQUE.png').convert_alpha()
-#boutique_bouton = button.Button(5, 70, boutique_img, 1)
-
 cailloux_img=pygame.image.load('data/CAILLOUX.png').convert_alpha()
 cailloux_bouton = button.Button(5, 70, cailloux_img, 1)
 
@@ -399,9 +390,6 @@ citrine_img=pygame.image.load('data/citrine1.png').convert_alpha()
 oeil_img=pygame.image.load('data/Oeil du tigre_petit.png').convert_alpha()
 oeil_bouton= button.Button(5, 300, oeil_img, 1)
 oeil_img=pygame.image.load('data/Oeil du tigre.png').convert_alpha()
-
-kirby_gif=pygame.image.load('data/kirby.gif').convert_alpha()
-kirby_bouton= button.Button(300, 12, kirby_gif, 1)
 
 mode_histoire_img= pygame.image.load('data/MODE HISTOIRE.png').convert_alpha()
 mode_histoire_bouton= button.Button(5, 150, mode_histoire_img, 1)
