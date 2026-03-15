@@ -386,9 +386,6 @@ oeil_img=pygame.image.load('../data/Oeil du tigre_petit.png').convert_alpha()
 oeil_bouton= button.Button(5, 300, oeil_img, 1)
 oeil_img=pygame.image.load('../data/Oeil du tigre.png').convert_alpha()
 
-kirby_gif=pygame.image.load('../data/kirby.gif').convert_alpha()
-kirby_bouton= button.Button(300, 12, kirby_gif, 1)
-
 mode_histoire_img= pygame.image.load('../data/MODE HISTOIRE.png').convert_alpha()
 mode_histoire_bouton= button.Button(5, 150, mode_histoire_img, 1)
 
