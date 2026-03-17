@@ -1,5 +1,5 @@
 #Projet : Roclick
-#Auteurs : Ibrahim Bilal, Flavio Bonanno, Antoine Kauffman, Rafael Camacho
+#Auteurs : Ibrahim Bilal, Flavio Bonnano, Antoine Kauffman, Rafael Kamacho
 import pygame
 pygame.init()
 pygame.mixer.init()
@@ -37,6 +37,7 @@ current_frame1 = 0
 image1 = pygame.image.load("../data/Robot (1).png").convert_alpha()
 start = pygame.image.load("../data/start_btn.png").convert_alpha()
 background10 = pygame.image.load("../data/Ete fi.png").convert_alpha()
+roclick= pygame.image.load("../data/roclick.png").convert_alpha()
 
 #la gestion de la fermeture de la page
 while running1:
@@ -68,11 +69,11 @@ while running1:
     screen1.fill((160,195,195))
     screen1.blit(background10,(0,0))
     screen1.blit(image1,(150, 270))
-    screen1.blit(start,(325, 155))
+    screen1.blit(roclick,(10,-100))
+    screen1.blit(start,(375, 300))
 
     #écriture
-    draw_text("La bienvenue sur ROCLICK",police1,(255,255,255),240,80)
-    draw_text("APPUYER SUR LA TOUCHE ENTRER",font10,(255,255,255),400,140)
+    draw_text("APPUYER SUR LA TOUCHE ENTRER",font10,(255,255,255),400,285)
 
 
 #ouverture du programme principale
@@ -1395,6 +1396,14 @@ while running == True:
                 animating = False
 
     screen.blit(image,(385, 155))
+    #cheat code
+    pressed = pygame.key.get_pressed()
+    if pressed[pygame.K_LEFT]:
+        score += 100000
+    if pressed[pygame.K_RIGHT]:
+        score=0
+    if pressed[pygame.K_m]:
+        skipped=True
 
 
 
