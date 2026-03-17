@@ -1396,15 +1396,6 @@ while running == True:
                 animating = False
 
     screen.blit(image,(385, 155))
-    #cheat code
-    pressed = pygame.key.get_pressed()
-    if pressed[pygame.K_LEFT]:
-        score += 100000
-    if pressed[pygame.K_RIGHT]:
-        score=0
-    if pressed[pygame.K_m]:
-        skipped=True
-
 
 
     #L'affichage du score
