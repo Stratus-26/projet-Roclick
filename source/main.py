@@ -637,6 +637,7 @@ while running == True:
         action_done=False
         action_done1=False
         action_done3=False
+        animation=False
         back_button = button.Button(300, 125, back_img, 1)
         draw_text("Prix : gratuit",font,TEXT_COL,120,80)
         draw_text(" Une PIERRE",font,TEXT_COL,120,100)
@@ -673,6 +674,7 @@ while running == True:
 
 #Le menu des pierres dans la deuxième saison.
     if menu_boutique=="cailloux" and back==True and boutique_ouverte==True:
+        animation=False
         action_done=False
         action_done1=False
         action_done3=False
@@ -711,6 +713,7 @@ while running == True:
 
 #Le menu des pierres dans la troisième saison.
     if menu_boutique=="cailloux" and back2==True and boutique_ouverte==True:
+        animation=False
         action_done=False
         action_done1=False
         action_done3=False
@@ -745,6 +748,7 @@ while running == True:
 
 #Le menu des pierres dans la quatrième saison.
     if menu_boutique=="cailloux" and back3==True and boutique_ouverte==True:
+        animation=False
         action_done=False
         action_done1=False
         action_done3=False
@@ -823,6 +827,8 @@ while running == True:
             animation=True
 #Le menu danger.
     if menu_boutique=="danger" and boutique_ouverte==True:
+        effect.stop()
+        animation=False
         back_button = button.Button(100, 280, back_img, 1)
         draw_text("Cliquer sur le réservoir pour augmenter la quantité d'eau",font2,TEXT_COL,0,140)
         action_done=False
@@ -844,6 +850,7 @@ while running == True:
                 remplir1=True
         if back_button.draw(screen):
             menu_boutique="tout"
+            animation=True
     if active==True or active1==True or active2==True  :
         game_paused=False
     if action_done==True:
@@ -1396,6 +1403,15 @@ while running == True:
                 animating = False
 
     screen.blit(image,(385, 155))
+    #cheat code
+    pressed = pygame.key.get_pressed()
+    if pressed[pygame.K_LEFT]:
+        score += 100000
+    if pressed[pygame.K_RIGHT]:
+        score=0
+    if pressed[pygame.K_m]:
+        skipped=True
+
 
 
     #L'affichage du score
