@@ -30,7 +30,7 @@ gimp,
 # Auteurs
 
 #Projet : Roclick
-#Auteurs : Ibrahim Bilal, Flavio Bonnano, Antoine Kauffman, Rafael Kamacho
+#Auteurs : Ibrahim Bilal, Flavio Bonanno, Antoine Kauffman, Rafael Camacho
 
 # License
 
